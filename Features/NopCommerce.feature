@@ -1,9 +1,10 @@
-Feature: Test Login NOP commerce
+Feature: Login the application and adding and searching customer
+@LoginApp
 Scenario: Test Login function 
 Given User is on Login Page
 When User enters UserName and Password and click on login
 Then user should Login Successfully
-
+@AddCustomer
 Scenario: Add new customer
 Given User on home page 
 When user click on Customers dropdown link

@@ -14,7 +14,7 @@ import cucumber.api.junit.Cucumber;
 ( features=".//Features/NopCommerce.feature",
  glue="com.StepDefinations",
  dryRun=false,
- tags={"@searchCust"},
+ tags={"@LoginApp"},
  monochrome=true,
  plugin={"com.cucumber.listener.ExtentCucumberFormatter:target/html/ExtentReport.html"}
 )
@@ -24,10 +24,10 @@ public class Runner
 	@AfterClass
 	public static void setup()
 	{
-	Reporter.loadXMLConfig(new File("src/test/resources/extent-config.xml"));
+	Reporter.loadXMLConfig(new File("E://Nop_CucumberFrmk//ExtendReportConfig.xml"));
 	//Reporter.setSystemInfo("Test User", System.getProperty("user.name"));
-	Reporter.setSystemInfo("User Name", "AJ");
-	Reporter.setSystemInfo("Application Name", "Test App ");
+	Reporter.setSystemInfo("User Name", "Sachin");
+	Reporter.setSystemInfo("Application Name", "Nop commerce App ");
 	Reporter.setSystemInfo("Operating System Type", System.getProperty("os.name").toString());
 	Reporter.setSystemInfo("Environment", "Production");
 	Reporter.setTestRunnerOutput("Test Execution Cucumber Report");
