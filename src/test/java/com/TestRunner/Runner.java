@@ -14,7 +14,7 @@ import cucumber.api.junit.Cucumber;
 ( features=".//Features/NopCommerce.feature",
  glue="com.StepDefinations",
  dryRun=false,
- tags={"@LoginApp"},
+ //tags={"@LoginApp"},
  monochrome=true,
  plugin={"com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport.html"} //this is for generating extend report
 )
@@ -25,7 +25,7 @@ public class Runner
 	@AfterClass
 	public static void setup()
 	{
-	Reporter.loadXMLConfig(new File("E://Nop_CucumberFrmk//ExtendReportConfig.xml"));
+	Reporter.loadXMLConfig(new File("E://Nop_CucumberFrmk//ExtendReportConfig.xml")); //location of extend report xml file
 	Reporter.setSystemInfo("Test User", System.getProperty("user.name"));
 	Reporter.setSystemInfo("User Name", "Sachin");
 	Reporter.setSystemInfo("Application Name", "Nop commerce App ");

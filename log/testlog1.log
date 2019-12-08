@@ -1,3 +1,33 @@
 2019-12-08 17:19:16,833 [main] INFO Nop Cucumber - browswer launched
 2019-12-08 17:19:17,083 [main] INFO Nop Cucumber - entering user name and password
 2019-12-08 17:19:35,114 [main] INFO Nop Cucumber - clicking on login button
+2019-12-08 17:25:11,140 [main] INFO Nop Cucumber - browswer launched
+2019-12-08 17:25:11,470 [main] INFO Nop Cucumber - entering user name and password
+2019-12-08 17:25:45,828 [main] INFO Nop Cucumber - clicking on login button
+2019-12-08 17:25:45,861 [main] INFO Nop Cucumber - checking user name and printing it
+2019-12-08 17:25:46,433 [main] INFO Nop Cucumber - closing the browser
+2019-12-08 17:30:33,315 [main] INFO Nop Cucumber - browswer launched
+2019-12-08 17:30:33,533 [main] INFO Nop Cucumber - entering user name and password
+2019-12-08 17:30:55,459 [main] INFO Nop Cucumber - clicking on login button
+2019-12-08 17:30:55,481 [main] INFO Nop Cucumber - checking user name and printing it
+2019-12-08 17:30:55,963 [main] INFO Nop Cucumber - closing the browser
+2019-12-08 17:46:13,516 [main] INFO Nop Cucumber - browswer launched
+2019-12-08 17:46:13,672 [main] INFO Nop Cucumber - entering user name and password
+2019-12-08 17:46:37,801 [main] INFO Nop Cucumber - clicking on login button
+2019-12-08 17:46:37,825 [main] INFO Nop Cucumber - checking user name and printing it
+2019-12-08 17:46:38,260 [main] INFO Nop Cucumber - closing the browser
+2019-12-08 17:46:44,751 [main] INFO Nop Cucumber - opning browser and navigating to app
+2019-12-08 17:46:45,684 [main] INFO Nop Cucumber - entering login crational and clicking login button
+2019-12-08 17:47:13,135 [main] INFO Nop Cucumber - clicking on Customes menu
+2019-12-08 17:47:13,488 [main] INFO Nop Cucumber - clicking on Customes link
+2019-12-08 17:47:28,583 [main] INFO Nop Cucumber - clicking on Add new customer button
+2019-12-08 17:47:32,215 [main] INFO Nop Cucumber - filling customer details
+2019-12-08 17:47:35,521 [main] INFO Nop Cucumber - clicking on save button
+2019-12-08 17:47:39,102 [main] INFO Nop Cucumber - checking confirmation message
+2019-12-08 17:47:49,013 [main] INFO Nop Cucumber - opning browser and navigating to app
+2019-12-08 17:47:50,052 [main] INFO Nop Cucumber - entering login crational and clicking login button
+2019-12-08 17:48:17,216 [main] INFO Nop Cucumber - clicking on customer menu
+2019-12-08 17:48:17,534 [main] INFO Nop Cucumber - clicking on customer link
+2019-12-08 17:48:29,641 [main] INFO Nop Cucumber - entering name to search
+2019-12-08 17:48:30,606 [main] INFO Nop Cucumber - clicking on search button
+2019-12-08 17:48:33,941 [main] INFO Nop Cucumber - Checking customer name is displayed in table

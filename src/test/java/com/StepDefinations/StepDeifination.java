@@ -67,7 +67,7 @@ public class StepDeifination
 	{
  	    driver.get("https://admin-demo.nopcommerce.com/");
 	    //System.out.println("browser launched");
-	    log.info("browswer launched");
+	    log.info("browser launched");
 	}
 
 	@When("^User enters UserName and Password and click on login$")
@@ -85,10 +85,11 @@ public class StepDeifination
 	@Then("^user should Login Successfully$")
 	public void user_should_Login_Successfully() throws Throwable
 	{
-		
+		log.info("checking user name and printing it");
 		Assert.assertEquals(lp.userName(), "John Smith");
 		System.out.println("User Name is "+ lp.userName());
-		System.out.println("closed the browser");
+		log.info("closing the browser");
+		//System.out.println("closed the browser");
 		driver.close();
 	}
 	
@@ -96,13 +97,10 @@ public class StepDeifination
 	
 	@Given("^User on home page$")
 	public void user_on_home_page() throws Throwable 
-	{
-		System.setProperty("webdriver.chrome.driver", "E://Selenium//selenium setup//chromedriver_win32//chromedriver.exe ");
-	    driver= new ChromeDriver();
-	    driver.manage().window().maximize();
-	    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-	    driver.get("https://admin-demo.nopcommerce.com/");
+	{   log.info("opening browser and navigating to app");
+        driver.get("https://admin-demo.nopcommerce.com/");
 	    lp = new LoginPage(driver);
+	    log.info("entering login credentials and clicking login button");
 		lp.login();   
 	}
 
@@ -111,12 +109,14 @@ public class StepDeifination
 	{
 		hp=new HomePage(driver);
 		Thread.sleep(9000);
+		log.info("clicking on Customers menu");
 		hp.ClickonCustomerMenu();
 	}
 
 	@When("^User click on Customers link$")
 	public void user_click_on_Customers_link() throws Throwable
 	{
+		log.info("clicking on Customers link");
 		hp.clickOnCustomerLink();
 	}
 
@@ -124,6 +124,7 @@ public class StepDeifination
 	public void user_click_on_AddNew_link() throws Throwable
 	{
 	  cust= new CustomersPage(driver);
+	  log.info("clicking on Add new customer button");
 	  cust.clickOnAddnewCust();
 	}
 
@@ -131,6 +132,7 @@ public class StepDeifination
 	public void user_fill_Customer_info_and_click_on_save_button() throws Throwable
 	{
 		  addcust = new AddNewCustomerPage(driver);
+		  log.info("filling customer details");
 		  addcust.setEmailId();
 		  addcust.setPasword();
 		  addcust.setName();
@@ -138,14 +140,16 @@ public class StepDeifination
 		  addcust.setGender("Male");
 		  addcust.setCompanyName();
 		  addcust.setAdmincomment();
+		  log.info("clicking on save button");
 		  addcust.clickonSavebtn();
 	}
 
 	@Then("^messge should be displayed as Customer added sucessfully$")
 	public void messge_should_be_displayed_as_Customer_added_sucessfully() throws Throwable
 	{
+	 log.info("checking confirmation message");
 	  Assert.assertTrue(driver.getPageSource().contains("Email is already registered")); 
-	  System.out.println("user already  registred");
+	 // System.out.println("user already  registered");
 	  Thread.sleep(5000);
 	  driver.close();
 	}
@@ -157,15 +161,19 @@ public class StepDeifination
 	{
 		hp=new HomePage(driver);
 		Thread.sleep(5000);
+		log.info("clicking on customer menu");
 		hp.ClickonCustomerMenu();
+		log.info("clicking on customer link");
 		hp.clickOnCustomerLink();
 		cust = new CustomersPage(driver);
+		log.info("entering name to search");
 	    cust.enterFirstName("John");
 	}
 
 	@When("^Click on search button$")
 	public void click_on_search_button() throws Throwable 
 	{
+		log.info("clicking on search button");
 	    cust.clickOnSearch();
 	    Thread.sleep(3000);
 	}
@@ -173,8 +181,8 @@ public class StepDeifination
 	@Then("^Customer list should be displayed in table$")
 	public void customer_list_should_be_displayed_in_table() throws Throwable
 	{
+		log.info("Checking customer name is displayed in table");
 	   String name=cust.getDisplyedcustomer();
-	   
 	   Assert.assertTrue(name.contains("John"));
 	   driver.quit();
 	}
