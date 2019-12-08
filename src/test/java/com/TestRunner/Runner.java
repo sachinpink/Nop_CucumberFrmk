@@ -16,11 +16,12 @@ import cucumber.api.junit.Cucumber;
  dryRun=false,
  tags={"@LoginApp"},
  monochrome=true,
- plugin={"com.cucumber.listener.ExtentCucumberFormatter:target/html/ExtentReport.html"}
+ plugin={"com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport.html"} //this is for generating extend report
 )
 
 public class Runner 
 {
+	// below code for generating extend report 
 	@AfterClass
 	public static void setup()
 	{

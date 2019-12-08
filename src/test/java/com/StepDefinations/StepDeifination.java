@@ -12,6 +12,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import com.Pages.AddNewCustomerPage;
 import com.Pages.CustomersPage;
@@ -21,6 +22,7 @@ import com.cucumber.listener.Reporter;
 
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
+import cucumber.api.java.Before;
 import cucumber.api.java.en.*;
 
 
@@ -33,20 +35,37 @@ public class StepDeifination
 	 public AddNewCustomerPage addcust;
 	 public static Logger log;
 	 
+	 String browser="chrome";
+	 
+	 @Before
+	 public void setup()
+	 {
+		 
+		 log=Logger.getLogger("Nop Cucumber");
+		 PropertyConfigurator.configure("log4j.properties");
+		 
+			if(browser.equals("chrome"))
+			{
+				System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"//Drivers//chromedriver.exe");
+				driver= new ChromeDriver();
+			}
+			else if(browser.equals("firefox"))
+			{
+				
+				//System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"//Drivers//geckodriver.exe");
+				driver = new FirefoxDriver();
+			}
+		
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	 }
 	
 	// ------------------Login function  ------------------------------------------------
 	 
 	 @Given("^User is on Login Page$")
 	 public void user_is_on_Login_Page() throws Throwable
 	{
-		log=Logger.getLogger("Nop Cucumber");
-		PropertyConfigurator.configure("log4j.properties");
-		
-		System.setProperty("webdriver.chrome.driver", "E://Selenium//selenium setup//chromedriver_win32//chromedriver.exe ");
-	    driver= new ChromeDriver();
-	    driver.manage().window().maximize();
-	    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-	    driver.get("https://admin-demo.nopcommerce.com/");
+ 	    driver.get("https://admin-demo.nopcommerce.com/");
 	    //System.out.println("browser launched");
 	    log.info("browswer launched");
 	}
@@ -55,8 +74,10 @@ public class StepDeifination
     public void user_enters_UserName_and_Password_and_click_on_login() throws Throwable 
 	{
 	    lp = new LoginPage(driver);
+	    log.info("entering user name and password");
 		lp.login();
-		System.out.println("entered user name and password and clicked on login");
+		log.info("clicking on login button");
+		//System.out.println("entered user name and password and clicked on login");
 		Reporter.addStepLog("entered user name and password and clicked on login");
 		
 	}
