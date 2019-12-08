@@ -25,7 +25,7 @@ public class Runner
 	public static void setup()
 	{
 	Reporter.loadXMLConfig(new File("E://Nop_CucumberFrmk//ExtendReportConfig.xml"));
-	//Reporter.setSystemInfo("Test User", System.getProperty("user.name"));
+	Reporter.setSystemInfo("Test User", System.getProperty("user.name"));
 	Reporter.setSystemInfo("User Name", "Sachin");
 	Reporter.setSystemInfo("Application Name", "Nop commerce App ");
 	Reporter.setSystemInfo("Operating System Type", System.getProperty("os.name").toString());
