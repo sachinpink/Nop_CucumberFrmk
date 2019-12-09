@@ -5,9 +5,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import utilites.WaitHelper;
+
 public class LoginPage 
 {
 	public WebDriver driver;
+	public WaitHelper wait;
 	
 	public LoginPage(WebDriver driver)
 	{
@@ -29,6 +32,8 @@ public class LoginPage
 	
 	public void login()
 	{
+		wait = new WaitHelper(driver);
+		wait.waitForElement(txtEmail);
 		txtEmail.sendKeys("admin@yourstore.com");
 		txtPassword.sendKeys("admin");
 		btnLogin.click();
@@ -37,6 +42,8 @@ public class LoginPage
 	
 	public String userName()
 	{
+		
+		wait.waitForElement(loggedUserName);
 		 return loggedUserName.getText();
 	}
 	

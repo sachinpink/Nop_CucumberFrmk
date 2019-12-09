@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions
-( features=".//Features/NopCommerce.feature",
+( features=".//Features/Login app Adding and searching customer.feature",
  glue="com.StepDefinations",
  dryRun=false,
  tags={"@LoginApp"},
@@ -25,7 +25,10 @@ public class Runner
 	@AfterClass
 	public static void setup()
 	{
-	Reporter.loadXMLConfig(new File("E://Nop_CucumberFrmk//ExtendReportConfig.xml")); //location of extend report xml file
+		//location of extend report XML file
+	Reporter.loadXMLConfig(new File("E://Nop_CucumberFrmk//ExtendReportConfig.xml")); 
+	
+	// adding additional info with extent reports 
 	Reporter.setSystemInfo("Test User", System.getProperty("user.name"));
 	Reporter.setSystemInfo("User Name", "Sachin");
 	Reporter.setSystemInfo("Application Name", "Nop commerce App ");

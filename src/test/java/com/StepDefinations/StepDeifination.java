@@ -46,7 +46,7 @@ public class StepDeifination
 		 //log4j- specified the location log4j properties file
 		 PropertyConfigurator.configure("log4j.properties"); 
 		 
-		 //creating object of ConfigFilereader class to read config.properties file
+		 //creating object "reader" of ConfigFilereader class to read config.properties file
 		  reader= new ConfigFileReader();
 		 
 			if(reader.getBrowser().equals("chrome"))
@@ -81,9 +81,12 @@ public class StepDeifination
 	{
 	    lp = new LoginPage(driver);
 	    log.info("entering user name and password");
+	    
 		lp.login();
+		
 		log.info("clicking on login button");
-		//System.out.println("entered user name and password and clicked on login");
+		
+		// It used add log in extend report
 		Reporter.addStepLog("entered user name and password and clicked on login");
 		
 	}
@@ -104,7 +107,8 @@ public class StepDeifination
 	@Given("^User on home page$")
 	public void user_on_home_page() throws Throwable 
 	{   log.info("opening browser and navigating to app");
-        driver.get("https://admin-demo.nopcommerce.com/");
+	
+        driver.get(reader.getBrowser());
 	    lp = new LoginPage(driver);
 	    log.info("entering login credentials and clicking login button");
 		lp.login();   
@@ -199,7 +203,7 @@ public class StepDeifination
 	    if (scenario.isFailed())
 	    {
 	      File  screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-	      FileUtils.copyFile(screenshot, new File("E://Nop_CucumberFrmk//ScreenShots//"+scenario.getName()+".jpg"));
+	      FileUtils.copyFile(screenshot, new File(System.getProperty("user.dir")+"//ScreenShots//"+scenario.getName()+".jpg"));
 	    }
 	}
 

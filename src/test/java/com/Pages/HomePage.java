@@ -5,9 +5,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import utilites.WaitHelper;
+
 public class HomePage 
 {
 	public WebDriver driver;
+	public WaitHelper wait;
 	public HomePage(WebDriver driver)
 	{
 		this.driver=driver;
@@ -26,10 +29,13 @@ public class HomePage
 
 	public void ClickonCustomerMenu()
 	{
+		wait= new WaitHelper(driver);
+		wait.waitForElement(Customers_Menu);
 		Customers_Menu.click();
 	}
 	public void clickOnCustomerLink()
 	{
+		wait.waitForElement(Customer_Link);
 		Customer_Link.click();
 	}
 	

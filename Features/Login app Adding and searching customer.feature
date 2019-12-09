@@ -1,4 +1,5 @@
 Feature: Login the application and adding and searching customer
+
 @LoginApp
 Scenario: Test Login function 
 Given User is on Login Page

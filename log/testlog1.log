@@ -56,3 +56,26 @@
 2019-12-09 11:21:00,253 [main] INFO Nop Cucumber - clicking on login button
 2019-12-09 11:21:00,297 [main] INFO Nop Cucumber - checking user name and printing it
 2019-12-09 11:21:01,056 [main] INFO Nop Cucumber - closing the browser
+2019-12-09 12:19:30,005 [main] INFO Nop Cucumber - browser launched
+2019-12-09 12:19:30,207 [main] INFO Nop Cucumber - entering user name and password
+2019-12-09 12:19:44,390 [main] INFO Nop Cucumber - clicking on login button
+2019-12-09 12:19:44,424 [main] INFO Nop Cucumber - checking user name and printing it
+2019-12-09 15:38:55,265 [main] INFO Nop Cucumber - browser launched
+2019-12-09 15:38:55,690 [main] INFO Nop Cucumber - entering user name and password
+2019-12-09 15:40:04,187 [main] INFO Nop Cucumber - browser launched
+2019-12-09 15:40:04,461 [main] INFO Nop Cucumber - entering user name and password
+2019-12-09 15:42:31,113 [main] INFO Nop Cucumber - browser launched
+2019-12-09 15:42:31,465 [main] INFO Nop Cucumber - entering user name and password
+2019-12-09 15:43:02,176 [main] INFO Nop Cucumber - clicking on login button
+2019-12-09 15:43:02,194 [main] INFO Nop Cucumber - checking user name and printing it
+2019-12-09 15:43:03,428 [main] INFO Nop Cucumber - closing the browser
+2019-12-09 15:44:38,144 [main] INFO Nop Cucumber - browser launched
+2019-12-09 15:44:38,320 [main] INFO Nop Cucumber - entering user name and password
+2019-12-09 15:45:00,414 [main] INFO Nop Cucumber - clicking on login button
+2019-12-09 15:45:00,450 [main] INFO Nop Cucumber - checking user name and printing it
+2019-12-09 15:45:01,610 [main] INFO Nop Cucumber - closing the browser
+2019-12-09 15:57:49,979 [main] INFO Nop Cucumber - browser launched
+2019-12-09 15:57:50,150 [main] INFO Nop Cucumber - entering user name and password
+2019-12-09 15:58:11,540 [main] INFO Nop Cucumber - clicking on login button
+2019-12-09 15:58:11,563 [main] INFO Nop Cucumber - checking user name and printing it
+2019-12-09 15:58:12,568 [main] INFO Nop Cucumber - closing the browser
