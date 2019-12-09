@@ -14,7 +14,7 @@ import cucumber.api.junit.Cucumber;
 ( features=".//Features/NopCommerce.feature",
  glue="com.StepDefinations",
  dryRun=false,
- //tags={"@LoginApp"},
+ tags={"@LoginApp"},
  monochrome=true,
  plugin={"com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport.html"} //this is for generating extend report
 )

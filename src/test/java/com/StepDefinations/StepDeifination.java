@@ -24,6 +24,7 @@ import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.*;
+import utilites.ConfigFileReader;
 
 
 public class StepDeifination
@@ -34,25 +35,29 @@ public class StepDeifination
 	 public CustomersPage cust;
 	 public AddNewCustomerPage addcust;
 	 public static Logger log;
-	 
-	 String browser="chrome";
+	 public ConfigFileReader reader;
 	 
 	 @Before
 	 public void setup()
 	 {
-		 
+		 //log4j - used getLogger method of Logger class
 		 log=Logger.getLogger("Nop Cucumber");
-		 PropertyConfigurator.configure("log4j.properties");
 		 
-			if(browser.equals("chrome"))
+		 //log4j- specified the location log4j properties file
+		 PropertyConfigurator.configure("log4j.properties"); 
+		 
+		 //creating object of ConfigFilereader class to read config.properties file
+		  reader= new ConfigFileReader();
+		 
+			if(reader.getBrowser().equals("chrome"))
 			{
 				System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"//Drivers//chromedriver.exe");
 				driver= new ChromeDriver();
 			}
-			else if(browser.equals("firefox"))
+			else if(reader.getBrowser().equals("firefox"))
 			{
 				
-				//System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"//Drivers//geckodriver.exe");
+				//System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"//Drivers//geckodriver.exe");
 				driver = new FirefoxDriver();
 			}
 		
@@ -65,7 +70,8 @@ public class StepDeifination
 	 @Given("^User is on Login Page$")
 	 public void user_is_on_Login_Page() throws Throwable
 	{
- 	    driver.get("https://admin-demo.nopcommerce.com/");
+		 driver.get(reader.getURL());
+ 	    //driver.get("https://admin-demo.nopcommerce.com/");
 	    //System.out.println("browser launched");
 	    log.info("browser launched");
 	}
