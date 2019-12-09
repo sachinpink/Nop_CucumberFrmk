@@ -24,8 +24,11 @@ public class HomePage
 	@FindBy(xpath="//a[@href='/Admin/Customer/List']")
 	WebElement Customer_Link;
 	
-	@FindBy(xpath="//span[contains(text(),'Sales')]")
-	WebElement Sales_Menu;
+	@FindBy(xpath="//span[contains(text(),'Catalog')]/ancestor::a[1]")
+	WebElement catalog_Menu;
+	
+	@FindBy(xpath="//a[@href='/Admin/Product/List']")
+	WebElement products_link;
 
 	public void ClickonCustomerMenu()
 	{
@@ -39,9 +42,14 @@ public class HomePage
 		Customer_Link.click();
 	}
 	
-	public void clickonSalesMenu()
+	public void clickonCatlogMenu()
 	{
-		Sales_Menu.click();
+		//wait.waitForElement(catalog_Menu);
+		catalog_Menu.click();
+	}
+	public void clickonProductLink()
+	{
+		products_link.click();
 	}
 }
 

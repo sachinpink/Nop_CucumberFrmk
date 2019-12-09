@@ -79,3 +79,30 @@
 2019-12-09 15:58:11,540 - Nop Cucumber -INFO - clicking on login button
 2019-12-09 15:58:11,563 - Nop Cucumber -INFO - checking user name and printing it
 2019-12-09 15:58:12,568 - Nop Cucumber -INFO - closing the browser
+2019-12-09 18:10:14,637 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-09 18:14:16,869 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-09 18:14:30,357 - Nop Cucumber -INFO - browser launched
+2019-12-09 18:14:30,829 - Nop Cucumber -INFO - entering user name and password
+2019-12-09 18:14:56,851 - Nop Cucumber -INFO - clicking on login button
+2019-12-09 18:14:56,869 - Nop Cucumber -INFO - checking user name and printing it
+2019-12-09 18:14:57,764 - Nop Cucumber -INFO - closing the browser
+2019-12-09 18:15:02,893 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-09 18:15:08,500 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-09 18:17:52,236 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-09 18:17:53,779 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-09 18:20:31,924 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-09 18:20:33,282 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-09 18:22:14,747 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-09 18:22:16,075 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-09 18:26:23,655 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-09 18:26:24,937 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-09 18:27:49,023 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-09 18:27:51,041 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-09 18:30:24,070 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-09 18:30:25,246 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-09 18:34:55,823 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-09 18:34:57,179 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-09 18:41:05,048 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-09 18:41:06,525 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-09 18:43:42,098 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-09 18:43:43,257 - Nop Cucumber -INFO - entering login credentials and clicking login button

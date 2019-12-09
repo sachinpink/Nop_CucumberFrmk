@@ -15,9 +15,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import com.Pages.AddNewCustomerPage;
+import com.Pages.AddNewProduct;
 import com.Pages.CustomersPage;
 import com.Pages.HomePage;
 import com.Pages.LoginPage;
+import com.Pages.ProductsPage;
 import com.cucumber.listener.Reporter;
 
 import cucumber.api.Scenario;
@@ -34,6 +36,8 @@ public class StepDeifination
 	 public HomePage hp;
 	 public CustomersPage cust;
 	 public AddNewCustomerPage addcust;
+	 public ProductsPage product;
+	 public AddNewProduct addNewProdt;
 	 public static Logger log;
 	 public ConfigFileReader reader;
 	 
@@ -108,7 +112,7 @@ public class StepDeifination
 	public void user_on_home_page() throws Throwable 
 	{   log.info("opening browser and navigating to app");
 	
-        driver.get(reader.getBrowser());
+        driver.get(reader.getURL());
 	    lp = new LoginPage(driver);
 	    log.info("entering login credentials and clicking login button");
 		lp.login();   
@@ -196,6 +200,46 @@ public class StepDeifination
 	   Assert.assertTrue(name.contains("John"));
 	   driver.quit();
 	}
+	
+	//-------- Add new products --------------------------
+	
+	@When("^User click on Catlog Menu$")
+	public void user_click_on_Catlog_Menu() throws Throwable 
+	{
+		hp=new HomePage(driver);
+	    hp.clickonCatlogMenu();
+	}
+
+	@When("^User click on products link$")
+	public void user_click_on_products_link() throws Throwable
+	{
+	    hp.clickonProductLink();
+	}
+
+	@When("^User click on Add new button$")
+	public void user_click_on_Add_new_button() throws Throwable
+	{
+		product= new ProductsPage(driver);
+		product.clickOnAddNew();
+	}
+
+	@When("^User fill the product details$")
+	public void user_fill_the_product_details() throws Throwable
+	{
+		addNewProdt= new AddNewProduct(driver);
+		//addNewProdt.clickOnProductInfo();
+		addNewProdt.setProductName();
+		addNewProdt.setShortDesc();
+		addNewProdt.setFullDesc();
+		addNewProdt.clickOnSave();	
+	}
+
+	@Then("^confirmation message should be displyed$")
+	public void confirmation_message_should_be_displyed() throws Throwable
+	{
+		Assert.assertTrue(addNewProdt.getConfirmationMsg().contains("The new product has been added successfully.")); 
+	}
+
 
 	@After
 	public void tearDown(Scenario scenario) throws IOException 
