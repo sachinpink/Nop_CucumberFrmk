@@ -8,11 +8,11 @@ import org.openqa.selenium.support.PageFactory;
 
 import utilites.WaitHelper;
 
-public class AddNewProduct 
+public class AddNewProductPage 
 {
 	public WebDriver driver;
 	public WaitHelper wait;
-	public AddNewProduct(WebDriver driver)
+	public AddNewProductPage(WebDriver driver)
 	{
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
@@ -33,31 +33,33 @@ public class AddNewProduct
 	@FindBy(xpath="//button[@name='save']")
 	WebElement save_btn;
 	
+	public void clickonProductInfo()
+	{
+		productInfo_link.click();
+		
+	}
 	
-//	public void clickOnProductInfo() throws InterruptedException
-//	{
-//		
-//		productInfo_link.click();
-//		Thread.sleep(2000);
-//		
-//	}
 	
 	public void setProductName() throws InterruptedException
 	{
-		Thread.sleep(2000);
+		wait= new WaitHelper(driver);
+		wait.waitForElement(productName_txt);
 		productName_txt.sendKeys("Dell laptop");	
 	}
 	
-	public void setShortDesc()
+	public void setShortDesc() throws InterruptedException
 	{
-		ShortDescription_txt.sendKeys("Fun-filled, colorful laptops and 2-in-1s featuring  Intel®");	
+		ShortDescription_txt.sendKeys("Fun-filled, colorful laptops and 2-in-1s featuring  Intel®");
+		
 	}
 	public void setFullDesc()
 	{
+		driver.switchTo().frame("FullDescription_ifr");
 		fulltDescription_txt.sendKeys("\n 10th Generation Intel® Core™ i5-1035G1 Processor"+
                                        "\n Windows 10 Pro (64bit) English"+
                                        "\n 4 GB, 1 x 4 GB, DDR4, 2666 MHz"+
                                        "\n 512GB M.2 PCIe NVMe Solid State Drive");	
+		driver.switchTo().defaultContent();
 	}
 	
 	public void clickOnSave()

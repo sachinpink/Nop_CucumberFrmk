@@ -15,7 +15,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import com.Pages.AddNewCustomerPage;
-import com.Pages.AddNewProduct;
+import com.Pages.AddNewProductPage;
 import com.Pages.CustomersPage;
 import com.Pages.HomePage;
 import com.Pages.LoginPage;
@@ -37,7 +37,7 @@ public class StepDeifination
 	 public CustomersPage cust;
 	 public AddNewCustomerPage addcust;
 	 public ProductsPage product;
-	 public AddNewProduct addNewProdt;
+	 public AddNewProductPage addNewProdt;
 	 public static Logger log;
 	 public ConfigFileReader reader;
 	 
@@ -207,12 +207,14 @@ public class StepDeifination
 	public void user_click_on_Catlog_Menu() throws Throwable 
 	{
 		hp=new HomePage(driver);
+		log.info("clicking on catlog menu");
 	    hp.clickonCatlogMenu();
 	}
 
 	@When("^User click on products link$")
 	public void user_click_on_products_link() throws Throwable
 	{
+		log.info("clicking on product link");
 	    hp.clickonProductLink();
 	}
 
@@ -220,17 +222,22 @@ public class StepDeifination
 	public void user_click_on_Add_new_button() throws Throwable
 	{
 		product= new ProductsPage(driver);
+		log.info("clicking on add new button ");
 		product.clickOnAddNew();
 	}
 
 	@When("^User fill the product details$")
 	public void user_fill_the_product_details() throws Throwable
 	{
-		addNewProdt= new AddNewProduct(driver);
-		//addNewProdt.clickOnProductInfo();
+		addNewProdt= new AddNewProductPage(driver);
+		addNewProdt.clickonProductInfo();
+		log.info("entering product name");
 		addNewProdt.setProductName();
+		log.info("entering short description of product");
 		addNewProdt.setShortDesc();
+		log.info("entering full description of product");
 		addNewProdt.setFullDesc();
+		log.info("clicking on save button");
 		addNewProdt.clickOnSave();	
 	}
 
@@ -241,14 +248,19 @@ public class StepDeifination
 	}
 
 
-	@After
-	public void tearDown(Scenario scenario) throws IOException 
+	@After(order=1)
+	public void takeScreenShot(Scenario scenario) throws IOException 
 	{
 	    if (scenario.isFailed())
 	    {
 	      File  screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 	      FileUtils.copyFile(screenshot, new File(System.getProperty("user.dir")+"//ScreenShots//"+scenario.getName()+".jpg"));
 	    }
+	}
+	@After(order=0)
+	public void close()
+	{
+		driver.close();
 	}
 
 }
