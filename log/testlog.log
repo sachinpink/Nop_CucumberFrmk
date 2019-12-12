@@ -136,3 +136,580 @@
 2019-12-10 11:42:52,957 - Nop Cucumber -INFO - entering short description of product
 2019-12-10 11:42:55,161 - Nop Cucumber -INFO - entering full description of product
 2019-12-10 11:43:31,136 - Nop Cucumber -INFO - clicking on save button
+2019-12-10 12:00:19,894 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 12:00:21,487 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 12:00:41,851 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-10 12:00:42,345 - Nop Cucumber -INFO - clicking on product link
+2019-12-10 12:00:51,377 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-10 12:01:08,177 - Nop Cucumber -INFO - entering product name
+2019-12-10 12:01:24,456 - Nop Cucumber -INFO - entering short description of product
+2019-12-10 12:01:26,472 - Nop Cucumber -INFO - entering full description of product
+2019-12-10 12:02:02,805 - Nop Cucumber -INFO - clicking on save button
+2019-12-10 12:02:18,001 - Nop Cucumber -INFO - browser launched
+2019-12-10 12:02:18,042 - Nop Cucumber -INFO - entering user name and password
+2019-12-10 12:02:36,430 - Nop Cucumber -INFO - clicking on login button
+2019-12-10 12:02:36,452 - Nop Cucumber -INFO - checking user name and printing it
+2019-12-10 12:02:37,555 - Nop Cucumber -INFO - closing the browser
+2019-12-10 12:02:42,754 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 12:02:43,955 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 12:03:13,826 - Nop Cucumber -INFO - clicking on Customers menu
+2019-12-10 12:03:14,357 - Nop Cucumber -INFO - clicking on Customers link
+2019-12-10 12:03:25,223 - Nop Cucumber -INFO - clicking on Add new customer button
+2019-12-10 12:03:28,836 - Nop Cucumber -INFO - filling customer details
+2019-12-10 12:03:33,061 - Nop Cucumber -INFO - clicking on save button
+2019-12-10 12:03:37,260 - Nop Cucumber -INFO - checking confirmation message
+2019-12-10 12:03:44,761 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 12:03:45,927 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 12:04:08,935 - Nop Cucumber -INFO - clicking on customer menu
+2019-12-10 12:04:09,592 - Nop Cucumber -INFO - clicking on customer link
+2019-12-10 12:04:21,362 - Nop Cucumber -INFO - entering name to search
+2019-12-10 12:04:21,962 - Nop Cucumber -INFO - clicking on search button
+2019-12-10 12:04:25,891 - Nop Cucumber -INFO - Checking customer name is displayed in table
+2019-12-10 12:07:16,821 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 12:07:18,400 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 12:07:39,982 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-10 12:07:40,434 - Nop Cucumber -INFO - clicking on product link
+2019-12-10 12:07:47,929 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-10 12:07:59,035 - Nop Cucumber -INFO - entering product name
+2019-12-10 12:08:38,321 - Nop Cucumber -INFO - browser launched
+2019-12-10 12:08:38,340 - Nop Cucumber -INFO - entering user name and password
+2019-12-10 12:08:58,572 - Nop Cucumber -INFO - clicking on login button
+2019-12-10 12:08:58,587 - Nop Cucumber -INFO - checking user name and printing it
+2019-12-10 12:08:59,289 - Nop Cucumber -INFO - closing the browser
+2019-12-10 12:09:05,558 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 12:09:06,768 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 12:09:32,970 - Nop Cucumber -INFO - clicking on Customers menu
+2019-12-10 12:09:33,561 - Nop Cucumber -INFO - clicking on Customers link
+2019-12-10 12:09:45,227 - Nop Cucumber -INFO - clicking on Add new customer button
+2019-12-10 12:09:51,240 - Nop Cucumber -INFO - filling customer details
+2019-12-10 12:09:54,986 - Nop Cucumber -INFO - clicking on save button
+2019-12-10 12:09:59,808 - Nop Cucumber -INFO - checking confirmation message
+2019-12-10 12:10:05,245 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 12:10:06,447 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 12:10:32,688 - Nop Cucumber -INFO - clicking on customer menu
+2019-12-10 12:10:33,264 - Nop Cucumber -INFO - clicking on customer link
+2019-12-10 12:10:41,416 - Nop Cucumber -INFO - entering name to search
+2019-12-10 12:10:42,739 - Nop Cucumber -INFO - clicking on search button
+2019-12-10 12:10:46,249 - Nop Cucumber -INFO - Checking customer name is displayed in table
+2019-12-10 12:44:14,002 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 12:44:15,416 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 12:44:34,639 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-10 12:44:35,391 - Nop Cucumber -INFO - clicking on product link
+2019-12-10 12:44:44,035 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-10 12:44:54,109 - Nop Cucumber -INFO - entering product name
+2019-12-10 12:46:34,652 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 12:46:36,126 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 12:46:56,636 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-10 12:46:57,417 - Nop Cucumber -INFO - clicking on product link
+2019-12-10 12:47:12,101 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-10 12:47:20,906 - Nop Cucumber -INFO - entering product name
+2019-12-10 12:47:23,091 - Nop Cucumber -INFO - entering short description of product
+2019-12-10 12:47:25,368 - Nop Cucumber -INFO - entering full description of product
+2019-12-10 12:48:00,841 - Nop Cucumber -INFO - clicking on save button
+2019-12-10 12:49:22,691 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 12:49:23,920 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 12:49:43,190 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-10 12:49:44,413 - Nop Cucumber -INFO - clicking on product link
+2019-12-10 12:49:58,090 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-10 12:50:12,640 - Nop Cucumber -INFO - entering product name
+2019-12-10 12:50:52,126 - Nop Cucumber -INFO - browser launched
+2019-12-10 12:50:52,144 - Nop Cucumber -INFO - entering user name and password
+2019-12-10 12:51:14,326 - Nop Cucumber -INFO - clicking on login button
+2019-12-10 12:51:14,355 - Nop Cucumber -INFO - checking user name and printing it
+2019-12-10 12:51:15,456 - Nop Cucumber -INFO - closing the browser
+2019-12-10 12:51:22,315 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 12:51:23,449 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 12:51:56,543 - Nop Cucumber -INFO - clicking on Customers menu
+2019-12-10 12:51:57,199 - Nop Cucumber -INFO - clicking on Customers link
+2019-12-10 12:52:07,380 - Nop Cucumber -INFO - clicking on Add new customer button
+2019-12-10 12:52:12,689 - Nop Cucumber -INFO - filling customer details
+2019-12-10 12:52:16,410 - Nop Cucumber -INFO - clicking on save button
+2019-12-10 12:52:22,613 - Nop Cucumber -INFO - checking confirmation message
+2019-12-10 12:52:30,502 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 12:52:31,779 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 12:52:56,661 - Nop Cucumber -INFO - clicking on customer menu
+2019-12-10 12:52:57,250 - Nop Cucumber -INFO - clicking on customer link
+2019-12-10 12:53:12,388 - Nop Cucumber -INFO - entering name to search
+2019-12-10 12:53:12,949 - Nop Cucumber -INFO - clicking on search button
+2019-12-10 12:53:16,465 - Nop Cucumber -INFO - Checking customer name is displayed in table
+2019-12-10 14:29:00,281 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 14:29:05,266 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 14:29:18,522 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-10 14:29:19,235 - Nop Cucumber -INFO - clicking on product link
+2019-12-10 14:29:27,514 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-10 14:29:40,780 - Nop Cucumber -INFO - entering product name
+2019-12-10 14:31:10,852 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 14:31:16,376 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 14:31:27,528 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-10 14:31:28,281 - Nop Cucumber -INFO - clicking on product link
+2019-12-10 14:31:35,981 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-10 14:31:47,756 - Nop Cucumber -INFO - entering product name
+2019-12-10 14:33:22,092 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 14:33:29,423 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 14:33:32,828 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 14:33:39,941 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 14:33:51,640 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-10 14:33:52,691 - Nop Cucumber -INFO - clicking on product link
+2019-12-10 14:33:59,211 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-10 14:34:01,207 - Nop Cucumber -INFO - clicking on product link
+2019-12-10 14:34:05,943 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-10 14:34:17,719 - Nop Cucumber -INFO - entering product name
+2019-12-10 14:34:20,127 - Nop Cucumber -INFO - entering short description of product
+2019-12-10 14:34:21,725 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-10 14:34:22,458 - Nop Cucumber -INFO - entering full description of product
+2019-12-10 14:34:31,883 - Nop Cucumber -INFO - entering product name
+2019-12-10 14:34:58,479 - Nop Cucumber -INFO - clicking on save button
+2019-12-10 14:36:21,812 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 14:36:26,729 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 14:36:38,791 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-10 14:36:39,379 - Nop Cucumber -INFO - clicking on product link
+2019-12-10 14:36:46,863 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-10 14:36:54,849 - Nop Cucumber -INFO - entering product name
+2019-12-10 14:36:56,744 - Nop Cucumber -INFO - entering short description of product
+2019-12-10 14:36:58,688 - Nop Cucumber -INFO - entering full description of product
+2019-12-10 14:37:33,858 - Nop Cucumber -INFO - clicking on save button
+2019-12-10 14:47:33,546 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 14:47:39,215 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 14:47:50,092 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-10 14:47:50,883 - Nop Cucumber -INFO - clicking on product link
+2019-12-10 14:47:59,903 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-10 14:48:11,382 - Nop Cucumber -INFO - entering product name
+2019-12-10 14:49:00,706 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 14:49:05,231 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 14:49:15,626 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-10 14:49:16,266 - Nop Cucumber -INFO - clicking on product link
+2019-12-10 14:49:28,990 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-10 14:49:42,247 - Nop Cucumber -INFO - entering product name
+2019-12-10 14:49:44,176 - Nop Cucumber -INFO - entering short description of product
+2019-12-10 14:49:46,029 - Nop Cucumber -INFO - entering full description of product
+2019-12-10 14:50:21,065 - Nop Cucumber -INFO - clicking on save button
+2019-12-10 14:52:56,100 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 14:53:01,678 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 14:53:13,065 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-10 14:53:13,687 - Nop Cucumber -INFO - clicking on product link
+2019-12-10 14:53:26,203 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-10 14:53:36,789 - Nop Cucumber -INFO - entering product name
+2019-12-10 14:53:52,327 - Nop Cucumber -INFO - entering short description of product
+2019-12-10 14:53:54,091 - Nop Cucumber -INFO - entering full description of product
+2019-12-10 14:54:43,018 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 14:54:47,153 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 14:54:57,325 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-10 14:54:57,944 - Nop Cucumber -INFO - clicking on product link
+2019-12-10 14:55:06,316 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-10 14:55:16,206 - Nop Cucumber -INFO - entering product name
+2019-12-10 14:58:13,033 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 14:58:18,673 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 14:58:30,683 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-10 14:58:31,356 - Nop Cucumber -INFO - clicking on product link
+2019-12-10 14:58:40,320 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-10 14:58:47,993 - Nop Cucumber -INFO - entering product name
+2019-12-10 14:58:49,837 - Nop Cucumber -INFO - entering short description of product
+2019-12-10 14:58:56,668 - Nop Cucumber -INFO - entering full description of product
+2019-12-10 14:59:31,460 - Nop Cucumber -INFO - clicking on save button
+2019-12-10 15:01:00,843 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 15:01:06,254 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 15:01:23,595 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-10 15:01:24,139 - Nop Cucumber -INFO - clicking on product link
+2019-12-10 15:01:31,320 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-10 15:01:39,462 - Nop Cucumber -INFO - entering product name
+2019-12-10 15:02:27,346 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 15:02:32,994 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 15:02:43,509 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-10 15:02:44,131 - Nop Cucumber -INFO - clicking on product link
+2019-12-10 15:02:53,388 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-10 15:03:01,717 - Nop Cucumber -INFO - entering product name
+2019-12-10 15:03:03,516 - Nop Cucumber -INFO - entering short description of product
+2019-12-10 15:03:05,260 - Nop Cucumber -INFO - entering full description of product
+2019-12-10 15:03:41,090 - Nop Cucumber -INFO - clicking on save button
+2019-12-10 15:03:47,060 - Nop Cucumber -INFO - prodct added sussesfully
+2019-12-10 15:10:24,308 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 15:10:29,463 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 15:10:42,276 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-10 15:10:42,865 - Nop Cucumber -INFO - clicking on product link
+2019-12-10 15:10:50,436 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-10 15:11:00,200 - Nop Cucumber -INFO - entering product name
+2019-12-10 15:11:00,202 - Nop Cucumber -INFO - entering short description of product
+2019-12-10 15:11:02,044 - Nop Cucumber -INFO - entering full description of product
+2019-12-10 15:11:36,941 - Nop Cucumber -INFO - clicking on save button
+2019-12-10 15:11:44,240 - Nop Cucumber -INFO - product added sussesfully
+2019-12-10 15:12:19,768 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 15:12:25,505 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 15:12:36,047 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-10 15:12:36,667 - Nop Cucumber -INFO - clicking on product link
+2019-12-10 15:12:49,172 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-10 15:14:32,903 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 15:14:37,692 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 15:14:47,143 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-10 15:14:47,774 - Nop Cucumber -INFO - clicking on product link
+2019-12-10 15:14:57,199 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-10 15:15:09,232 - Nop Cucumber -INFO - entering product name
+2019-12-10 15:15:09,232 - Nop Cucumber -INFO - entering short description of product
+2019-12-10 15:15:11,146 - Nop Cucumber -INFO - entering full description of product
+2019-12-10 15:15:45,956 - Nop Cucumber -INFO - clicking on save button
+2019-12-10 15:15:52,649 - Nop Cucumber -INFO - product added sussesfully
+2019-12-10 15:17:03,822 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 15:17:17,349 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 15:17:27,910 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-10 15:17:28,498 - Nop Cucumber -INFO - clicking on product link
+2019-12-10 15:17:40,095 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-10 15:18:29,787 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 15:18:33,068 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 15:18:43,203 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-10 15:18:43,847 - Nop Cucumber -INFO - clicking on product link
+2019-12-10 15:18:50,108 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-10 15:18:59,987 - Nop Cucumber -INFO - entering product name
+2019-12-10 15:18:59,988 - Nop Cucumber -INFO - entering short description of product
+2019-12-10 15:19:01,788 - Nop Cucumber -INFO - entering full description of product
+2019-12-10 15:19:36,918 - Nop Cucumber -INFO - clicking on save button
+2019-12-10 15:19:43,993 - Nop Cucumber -INFO - product added sussesfully
+2019-12-10 15:21:15,809 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 15:21:21,838 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 15:21:33,537 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-10 15:21:34,259 - Nop Cucumber -INFO - clicking on product link
+2019-12-10 15:21:48,977 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-10 15:22:26,868 - Nop Cucumber -INFO - entering product name
+2019-12-10 15:22:26,868 - Nop Cucumber -INFO - entering short description of product
+2019-12-10 15:22:28,634 - Nop Cucumber -INFO - entering full description of product
+2019-12-10 15:23:00,155 - Nop Cucumber -INFO - clicking on save button
+2019-12-10 15:23:06,114 - Nop Cucumber -INFO - product added sussesfully
+2019-12-10 15:26:00,998 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 15:26:06,074 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 15:26:27,148 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-10 15:26:27,755 - Nop Cucumber -INFO - clicking on product link
+2019-12-10 15:26:36,301 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-10 15:26:47,132 - Nop Cucumber -INFO - entering product name
+2019-12-10 15:26:47,133 - Nop Cucumber -INFO - entering short description of product
+2019-12-10 15:26:48,753 - Nop Cucumber -INFO - entering full description of product
+2019-12-10 15:27:24,284 - Nop Cucumber -INFO - clicking on save button
+2019-12-10 15:27:36,796 - Nop Cucumber -INFO - product added sussesfully
+2019-12-10 15:28:42,465 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 15:28:47,573 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 15:28:59,209 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-10 15:28:59,840 - Nop Cucumber -INFO - clicking on product link
+2019-12-10 15:29:13,446 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-10 15:32:34,395 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 15:32:40,700 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 15:32:52,370 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-10 15:32:52,977 - Nop Cucumber -INFO - clicking on product link
+2019-12-10 15:33:01,996 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-10 15:33:12,281 - Nop Cucumber -INFO - entering product name
+2019-12-10 15:33:12,283 - Nop Cucumber -INFO - entering short description of product
+2019-12-10 15:33:13,923 - Nop Cucumber -INFO - entering full description of product
+2019-12-10 15:33:48,675 - Nop Cucumber -INFO - clicking on save button
+2019-12-10 15:33:54,912 - Nop Cucumber -INFO - product added sussesfully
+2019-12-10 15:34:18,600 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 15:34:23,277 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 15:34:33,822 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-10 15:34:35,168 - Nop Cucumber -INFO - clicking on product link
+2019-12-10 15:34:48,080 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-10 15:34:57,650 - Nop Cucumber -INFO - entering product name
+2019-12-10 15:34:57,651 - Nop Cucumber -INFO - entering short description of product
+2019-12-10 15:34:59,371 - Nop Cucumber -INFO - entering full description of product
+2019-12-10 15:35:34,105 - Nop Cucumber -INFO - clicking on save button
+2019-12-10 15:35:41,297 - Nop Cucumber -INFO - product added sussesfully
+2019-12-10 15:36:09,169 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 15:36:12,923 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 15:36:26,982 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-10 15:36:27,963 - Nop Cucumber -INFO - clicking on product link
+2019-12-10 15:36:43,486 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-10 15:36:53,775 - Nop Cucumber -INFO - entering product name
+2019-12-10 15:36:53,776 - Nop Cucumber -INFO - entering short description of product
+2019-12-10 15:36:55,537 - Nop Cucumber -INFO - entering full description of product
+2019-12-10 15:37:30,369 - Nop Cucumber -INFO - clicking on save button
+2019-12-10 15:37:36,020 - Nop Cucumber -INFO - product added sussesfully
+2019-12-10 15:38:07,493 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 15:38:12,586 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 15:38:24,593 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-10 15:38:25,733 - Nop Cucumber -INFO - clicking on product link
+2019-12-10 15:38:32,363 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-10 15:38:45,302 - Nop Cucumber -INFO - entering product name
+2019-12-10 15:38:45,303 - Nop Cucumber -INFO - entering short description of product
+2019-12-10 15:38:47,525 - Nop Cucumber -INFO - entering full description of product
+2019-12-10 15:39:22,740 - Nop Cucumber -INFO - clicking on save button
+2019-12-10 15:39:29,303 - Nop Cucumber -INFO - product added sussesfully
+2019-12-10 15:40:44,727 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 15:40:51,394 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 15:41:07,916 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-10 15:41:09,751 - Nop Cucumber -INFO - clicking on product link
+2019-12-10 15:41:17,842 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-10 15:41:30,350 - Nop Cucumber -INFO - entering product name
+2019-12-10 15:41:30,352 - Nop Cucumber -INFO - entering short description of product
+2019-12-10 15:41:32,121 - Nop Cucumber -INFO - entering full description of product
+2019-12-10 15:42:13,223 - Nop Cucumber -INFO - clicking on save button
+2019-12-10 15:42:19,934 - Nop Cucumber -INFO - product added sussesfully
+2019-12-10 15:42:31,179 - Nop Cucumber -INFO - browser launched
+2019-12-10 15:42:31,224 - Nop Cucumber -INFO - entering user name and password
+2019-12-10 15:42:42,020 - Nop Cucumber -INFO - clicking on login button
+2019-12-10 15:42:42,036 - Nop Cucumber -INFO - checking user name and printing it
+2019-12-10 15:42:43,263 - Nop Cucumber -INFO - closing the browser
+2019-12-10 15:42:48,276 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 15:42:52,227 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 15:43:13,752 - Nop Cucumber -INFO - clicking on Customers menu
+2019-12-10 15:43:14,276 - Nop Cucumber -INFO - clicking on Customers link
+2019-12-10 15:43:19,368 - Nop Cucumber -INFO - clicking on Add new customer button
+2019-12-10 15:43:29,166 - Nop Cucumber -INFO - filling customer details
+2019-12-10 15:43:32,866 - Nop Cucumber -INFO - clicking on save button
+2019-12-10 15:43:38,475 - Nop Cucumber -INFO - checking confirmation message
+2019-12-10 15:43:44,798 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 15:43:48,757 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 15:44:03,112 - Nop Cucumber -INFO - clicking on customer menu
+2019-12-10 15:44:03,558 - Nop Cucumber -INFO - clicking on customer link
+2019-12-10 15:44:08,295 - Nop Cucumber -INFO - entering name to search
+2019-12-10 15:44:09,264 - Nop Cucumber -INFO - clicking on search button
+2019-12-10 15:44:12,702 - Nop Cucumber -INFO - Checking customer name is displayed in table
+2019-12-10 16:09:01,296 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 16:09:06,275 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 16:09:16,328 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-10 16:09:16,844 - Nop Cucumber -INFO - clicking on product link
+2019-12-10 16:09:21,883 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-10 16:09:30,872 - Nop Cucumber -INFO - entering product name
+2019-12-10 16:09:30,873 - Nop Cucumber -INFO - entering short description of product
+2019-12-10 16:09:32,530 - Nop Cucumber -INFO - entering full description of product
+2019-12-10 16:10:12,235 - Nop Cucumber -INFO - clicking on save button
+2019-12-10 16:10:22,171 - Nop Cucumber -INFO - product added sussesfully
+2019-12-10 16:10:31,950 - Nop Cucumber -INFO - browser launched
+2019-12-10 16:10:31,999 - Nop Cucumber -INFO - entering user name and password
+2019-12-10 16:10:42,396 - Nop Cucumber -INFO - clicking on login button
+2019-12-10 16:10:42,417 - Nop Cucumber -INFO - checking user name and printing it
+2019-12-10 16:10:43,378 - Nop Cucumber -INFO - closing the browser
+2019-12-10 16:10:49,855 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 16:10:54,425 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 16:11:13,570 - Nop Cucumber -INFO - clicking on Customers menu
+2019-12-10 16:11:14,023 - Nop Cucumber -INFO - clicking on Customers link
+2019-12-10 16:11:18,487 - Nop Cucumber -INFO - clicking on Add new customer button
+2019-12-10 16:11:23,510 - Nop Cucumber -INFO - filling customer details
+2019-12-10 16:11:26,904 - Nop Cucumber -INFO - clicking on save button
+2019-12-10 16:11:29,704 - Nop Cucumber -INFO - checking confirmation message
+2019-12-10 16:11:37,883 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 16:11:41,854 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 16:11:55,444 - Nop Cucumber -INFO - clicking on customer menu
+2019-12-10 16:11:55,887 - Nop Cucumber -INFO - clicking on customer link
+2019-12-10 16:11:59,872 - Nop Cucumber -INFO - entering name to search
+2019-12-10 16:12:00,916 - Nop Cucumber -INFO - clicking on search button
+2019-12-10 16:12:04,323 - Nop Cucumber -INFO - Checking customer name is displayed in table
+2019-12-10 16:15:10,767 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 16:15:14,610 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 16:15:26,765 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-10 16:15:27,290 - Nop Cucumber -INFO - clicking on product link
+2019-12-10 16:15:31,741 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-10 16:15:41,985 - Nop Cucumber -INFO - entering product name
+2019-12-10 16:15:41,987 - Nop Cucumber -INFO - entering short description of product
+2019-12-10 16:15:43,534 - Nop Cucumber -INFO - entering full description of product
+2019-12-10 16:16:17,998 - Nop Cucumber -INFO - clicking on save button
+2019-12-10 16:16:25,266 - Nop Cucumber -INFO - product added sussesfully
+2019-12-10 16:16:36,011 - Nop Cucumber -INFO - browser launched
+2019-12-10 16:16:36,038 - Nop Cucumber -INFO - entering user name and password
+2019-12-10 16:16:46,692 - Nop Cucumber -INFO - clicking on login button
+2019-12-10 16:16:46,764 - Nop Cucumber -INFO - checking user name and printing it
+2019-12-10 16:16:47,580 - Nop Cucumber -INFO - closing the browser
+2019-12-10 16:16:54,095 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 16:16:57,732 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 16:17:17,077 - Nop Cucumber -INFO - clicking on Customers menu
+2019-12-10 16:17:17,580 - Nop Cucumber -INFO - clicking on Customers link
+2019-12-10 16:17:22,112 - Nop Cucumber -INFO - clicking on Add new customer button
+2019-12-10 16:17:26,071 - Nop Cucumber -INFO - filling customer details
+2019-12-10 16:17:29,740 - Nop Cucumber -INFO - clicking on save button
+2019-12-10 16:17:34,902 - Nop Cucumber -INFO - checking confirmation message
+2019-12-10 16:17:39,791 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-10 16:17:42,791 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-10 16:17:58,405 - Nop Cucumber -INFO - clicking on customer menu
+2019-12-10 16:17:58,929 - Nop Cucumber -INFO - clicking on customer link
+2019-12-10 16:18:12,371 - Nop Cucumber -INFO - entering name to search
+2019-12-10 16:18:12,809 - Nop Cucumber -INFO - clicking on search button
+2019-12-10 16:18:16,163 - Nop Cucumber -INFO - Checking customer name is displayed in table
+2019-12-11 11:58:13,595 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-11 11:58:18,839 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-11 11:58:28,780 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-11 11:58:29,452 - Nop Cucumber -INFO - clicking on product link
+2019-12-11 11:58:37,253 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-11 11:58:47,172 - Nop Cucumber -INFO - entering product name
+2019-12-11 11:58:47,173 - Nop Cucumber -INFO - entering short description of product
+2019-12-11 11:58:49,147 - Nop Cucumber -INFO - entering full description of product
+2019-12-11 11:59:24,338 - Nop Cucumber -INFO - clicking on save button
+2019-12-11 11:59:29,205 - Nop Cucumber -INFO - product added sussesfully
+2019-12-11 11:59:40,859 - Nop Cucumber -INFO - browser launched
+2019-12-11 11:59:40,876 - Nop Cucumber -INFO - entering user name and password
+2019-12-11 11:59:55,664 - Nop Cucumber -INFO - clicking on login button
+2019-12-11 11:59:55,674 - Nop Cucumber -INFO - checking user name and printing it
+2019-12-11 11:59:56,953 - Nop Cucumber -INFO - closing the browser
+2019-12-11 12:00:01,476 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-11 12:00:06,266 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-11 12:00:25,032 - Nop Cucumber -INFO - clicking on Customers menu
+2019-12-11 12:00:25,557 - Nop Cucumber -INFO - clicking on Customers link
+2019-12-11 12:00:32,636 - Nop Cucumber -INFO - clicking on Add new customer button
+2019-12-11 12:00:36,013 - Nop Cucumber -INFO - filling customer details
+2019-12-11 12:00:39,316 - Nop Cucumber -INFO - clicking on save button
+2019-12-11 12:00:43,502 - Nop Cucumber -INFO - checking confirmation message
+2019-12-11 12:00:48,362 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-11 12:00:52,612 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-11 12:01:07,245 - Nop Cucumber -INFO - clicking on customer menu
+2019-12-11 12:01:07,774 - Nop Cucumber -INFO - clicking on customer link
+2019-12-11 12:01:15,382 - Nop Cucumber -INFO - entering name to search
+2019-12-11 12:01:16,409 - Nop Cucumber -INFO - clicking on search button
+2019-12-11 12:01:19,829 - Nop Cucumber -INFO - Checking customer name is displayed in table
+2019-12-11 12:04:50,190 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-11 12:04:55,484 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-11 12:05:03,486 - Nop Cucumber -INFO - clicking on catlog menu
+2019-12-11 12:05:04,735 - Nop Cucumber -INFO - clicking on product link
+2019-12-11 12:05:11,894 - Nop Cucumber -INFO - clicking on add new button 
+2019-12-11 12:05:22,125 - Nop Cucumber -INFO - entering product name
+2019-12-11 12:05:22,126 - Nop Cucumber -INFO - entering short description of product
+2019-12-11 12:05:24,144 - Nop Cucumber -INFO - entering full description of product
+2019-12-11 12:06:00,046 - Nop Cucumber -INFO - clicking on save button
+2019-12-11 12:06:05,326 - Nop Cucumber -INFO - product added sussesfully
+2019-12-11 12:06:14,574 - Nop Cucumber -INFO - browser launched
+2019-12-11 12:06:14,603 - Nop Cucumber -INFO - entering user name and password
+2019-12-11 12:06:24,913 - Nop Cucumber -INFO - clicking on login button
+2019-12-11 12:06:24,944 - Nop Cucumber -INFO - checking user name and printing it
+2019-12-11 12:06:25,929 - Nop Cucumber -INFO - closing the browser
+2019-12-11 12:06:32,315 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-11 12:06:35,335 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-11 12:06:53,395 - Nop Cucumber -INFO - clicking on Customers menu
+2019-12-11 12:06:53,909 - Nop Cucumber -INFO - clicking on Customers link
+2019-12-11 12:07:00,822 - Nop Cucumber -INFO - clicking on Add new customer button
+2019-12-11 12:07:03,631 - Nop Cucumber -INFO - filling customer details
+2019-12-11 12:07:06,862 - Nop Cucumber -INFO - clicking on save button
+2019-12-11 12:07:09,576 - Nop Cucumber -INFO - checking confirmation message
+2019-12-11 12:07:46,883 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-11 12:07:51,025 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-11 12:08:05,889 - Nop Cucumber -INFO - clicking on customer menu
+2019-12-11 12:08:06,310 - Nop Cucumber -INFO - clicking on customer link
+2019-12-11 12:08:17,235 - Nop Cucumber -INFO - entering name to search
+2019-12-11 12:08:18,092 - Nop Cucumber -INFO - clicking on search button
+2019-12-11 12:08:21,409 - Nop Cucumber -INFO - Checking customer name is displayed in table
+2019-12-11 12:10:49,783 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-11 12:10:55,226 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-11 12:11:15,170 - Nop Cucumber -INFO - clicking on Customers menu
+2019-12-11 12:11:15,631 - Nop Cucumber -INFO - clicking on Customers link
+2019-12-11 12:11:22,809 - Nop Cucumber -INFO - clicking on Add new customer button
+2019-12-11 12:11:26,085 - Nop Cucumber -INFO - filling customer details
+2019-12-11 12:11:29,480 - Nop Cucumber -INFO - clicking on save button
+2019-12-11 12:11:32,371 - Nop Cucumber -INFO - checking confirmation message
+2019-12-11 12:12:46,505 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-11 12:12:51,298 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-11 12:13:11,696 - Nop Cucumber -INFO - clicking on Customers menu
+2019-12-11 12:13:13,050 - Nop Cucumber -INFO - clicking on Customers link
+2019-12-11 12:13:25,871 - Nop Cucumber -INFO - clicking on Add new customer button
+2019-12-11 12:13:29,659 - Nop Cucumber -INFO - filling customer details
+2019-12-11 12:13:33,490 - Nop Cucumber -INFO - clicking on save button
+2019-12-11 12:13:36,730 - Nop Cucumber -INFO - checking confirmation message
+2019-12-11 12:22:20,022 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-11 12:22:25,003 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-11 12:22:45,738 - Nop Cucumber -INFO - clicking on Customers menu
+2019-12-11 12:22:46,258 - Nop Cucumber -INFO - clicking on Customers link
+2019-12-11 12:22:58,977 - Nop Cucumber -INFO - clicking on Add new customer button
+2019-12-11 12:23:03,523 - Nop Cucumber -INFO - filling customer details
+2019-12-11 12:23:06,964 - Nop Cucumber -INFO - clicking on save button
+2019-12-11 12:23:11,126 - Nop Cucumber -INFO - checking confirmation message
+2019-12-12 13:24:39,868 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-12 13:24:46,173 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-12 13:25:13,326 - Nop Cucumber -INFO - clicking on Customers menu
+2019-12-12 13:25:13,932 - Nop Cucumber -INFO - clicking on Customers link
+2019-12-12 13:25:23,180 - Nop Cucumber -INFO - clicking on Add new customer button
+2019-12-12 13:25:27,043 - Nop Cucumber -INFO - filling customer details
+2019-12-12 13:30:15,428 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-12 13:30:21,642 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-12 13:30:43,296 - Nop Cucumber -INFO - clicking on Customers menu
+2019-12-12 13:30:48,903 - Nop Cucumber -INFO - clicking on Customers link
+2019-12-12 13:31:02,515 - Nop Cucumber -INFO - clicking on Add new customer button
+2019-12-12 13:31:06,581 - Nop Cucumber -INFO - filling customer details
+2019-12-12 13:31:16,734 - Nop Cucumber -INFO - clicking on save button
+2019-12-12 13:31:20,891 - Nop Cucumber -INFO - checking confirmation message
+2019-12-12 13:32:27,042 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-12 13:32:31,568 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-12 13:32:53,777 - Nop Cucumber -INFO - clicking on Customers menu
+2019-12-12 13:32:54,324 - Nop Cucumber -INFO - clicking on Customers link
+2019-12-12 13:33:02,587 - Nop Cucumber -INFO - clicking on Add new customer button
+2019-12-12 13:33:06,357 - Nop Cucumber -INFO - filling customer details
+2019-12-12 13:33:21,634 - Nop Cucumber -INFO - clicking on save button
+2019-12-12 13:33:21,640 - Nop Cucumber -INFO - checking confirmation message
+2019-12-12 13:34:53,055 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-12 13:34:58,747 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-12 13:35:21,532 - Nop Cucumber -INFO - clicking on Customers menu
+2019-12-12 13:35:22,084 - Nop Cucumber -INFO - clicking on Customers link
+2019-12-12 13:35:30,538 - Nop Cucumber -INFO - clicking on Add new customer button
+2019-12-12 13:35:35,790 - Nop Cucumber -INFO - filling customer details
+2019-12-12 13:35:55,766 - Nop Cucumber -INFO - clicking on save button
+2019-12-12 13:35:55,775 - Nop Cucumber -INFO - checking confirmation message
+2019-12-12 13:42:57,180 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-12 13:43:21,844 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-12 13:45:50,813 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-12 13:45:56,411 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-12 13:46:16,932 - Nop Cucumber -INFO - clicking on Customers menu
+2019-12-12 13:46:17,494 - Nop Cucumber -INFO - clicking on Customers link
+2019-12-12 13:46:30,646 - Nop Cucumber -INFO - clicking on Add new customer button
+2019-12-12 13:46:34,652 - Nop Cucumber -INFO - filling customer details
+2019-12-12 14:58:16,112 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-12 14:58:22,470 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-12 14:58:41,241 - Nop Cucumber -INFO - clicking on Customers menu
+2019-12-12 14:58:41,415 - Nop Cucumber -INFO - clicking on Customers link
+2019-12-12 14:58:43,341 - Nop Cucumber -INFO - clicking on Add new customer button
+2019-12-12 14:58:44,918 - Nop Cucumber -INFO - filling customer details
+2019-12-12 15:00:12,730 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-12 15:00:23,577 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-12 15:00:51,506 - Nop Cucumber -INFO - clicking on Customers menu
+2019-12-12 15:00:51,668 - Nop Cucumber -INFO - clicking on Customers link
+2019-12-12 15:00:53,480 - Nop Cucumber -INFO - clicking on Add new customer button
+2019-12-12 15:00:55,295 - Nop Cucumber -INFO - filling customer details
+2019-12-12 15:03:35,728 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-12 15:03:40,904 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-12 15:03:58,830 - Nop Cucumber -INFO - clicking on Customers menu
+2019-12-12 15:03:59,001 - Nop Cucumber -INFO - clicking on Customers link
+2019-12-12 15:04:01,015 - Nop Cucumber -INFO - clicking on Add new customer button
+2019-12-12 15:04:03,423 - Nop Cucumber -INFO - filling customer details
+2019-12-12 15:04:20,372 - Nop Cucumber -INFO - clicking on save button
+2019-12-12 15:04:20,374 - Nop Cucumber -INFO - checking confirmation message
+2019-12-12 15:09:22,610 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-12 15:09:28,319 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-12 15:09:46,080 - Nop Cucumber -INFO - clicking on Customers menu
+2019-12-12 15:09:46,239 - Nop Cucumber -INFO - clicking on Customers link
+2019-12-12 15:09:48,195 - Nop Cucumber -INFO - clicking on Add new customer button
+2019-12-12 15:09:50,267 - Nop Cucumber -INFO - filling customer details
+2019-12-12 15:10:07,141 - Nop Cucumber -INFO - clicking on save button
+2019-12-12 15:10:07,143 - Nop Cucumber -INFO - checking confirmation message
+2019-12-12 15:14:31,114 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-12 15:14:36,064 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-12 15:14:50,711 - Nop Cucumber -INFO - clicking on Customers menu
+2019-12-12 15:14:50,874 - Nop Cucumber -INFO - clicking on Customers link
+2019-12-12 15:14:52,760 - Nop Cucumber -INFO - clicking on Add new customer button
+2019-12-12 15:14:54,230 - Nop Cucumber -INFO - filling customer details
+2019-12-12 15:18:54,383 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-12 15:18:56,853 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-12 15:19:10,927 - Nop Cucumber -INFO - clicking on Customers menu
+2019-12-12 15:19:11,100 - Nop Cucumber -INFO - clicking on Customers link
+2019-12-12 15:19:25,163 - Nop Cucumber -INFO - clicking on Add new customer button
+2019-12-12 15:19:26,709 - Nop Cucumber -INFO - filling customer details
+2019-12-12 15:19:44,836 - Nop Cucumber -INFO - clicking on save button
+2019-12-12 15:19:49,912 - Nop Cucumber -INFO - checking confirmation message
+2019-12-12 15:23:38,966 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-12 15:23:43,218 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-12 15:24:01,080 - Nop Cucumber -INFO - clicking on Customers menu
+2019-12-12 15:24:01,251 - Nop Cucumber -INFO - clicking on Customers link
+2019-12-12 15:24:06,264 - Nop Cucumber -INFO - clicking on Add new customer button
+2019-12-12 15:24:28,233 - Nop Cucumber -INFO - filling customer details
+2019-12-12 15:24:59,166 - Nop Cucumber -INFO - clicking on save button
+2019-12-12 15:25:03,097 - Nop Cucumber -INFO - checking confirmation message
+2019-12-12 15:37:31,112 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-12 15:37:39,761 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-12 15:38:02,887 - Nop Cucumber -INFO - clicking on Customers menu
+2019-12-12 15:38:03,059 - Nop Cucumber -INFO - clicking on Customers link
+2019-12-12 15:38:05,231 - Nop Cucumber -INFO - clicking on Add new customer button
+2019-12-12 15:38:06,792 - Nop Cucumber -INFO - filling customer details
+2019-12-12 15:38:37,607 - Nop Cucumber -INFO - clicking on save button
+2019-12-12 15:38:41,067 - Nop Cucumber -INFO - checking confirmation message
+2019-12-12 15:50:50,705 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-12 15:50:56,257 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-12 15:51:11,339 - Nop Cucumber -INFO - clicking on Customers menu
+2019-12-12 15:51:11,506 - Nop Cucumber -INFO - clicking on Customers link
+2019-12-12 15:51:16,267 - Nop Cucumber -INFO - clicking on Add new customer button
+2019-12-12 15:51:17,689 - Nop Cucumber -INFO - filling customer details
+2019-12-12 15:51:48,666 - Nop Cucumber -INFO - clicking on save button
+2019-12-12 15:51:52,970 - Nop Cucumber -INFO - checking confirmation message
+2019-12-12 16:05:30,465 - Nop Cucumber -INFO - opening browser and navigating to app
+2019-12-12 16:05:36,046 - Nop Cucumber -INFO - entering login credentials and clicking login button
+2019-12-12 16:05:54,180 - Nop Cucumber -INFO - clicking on Customers menu
+2019-12-12 16:05:54,346 - Nop Cucumber -INFO - clicking on Customers link
+2019-12-12 16:05:58,074 - Nop Cucumber -INFO - clicking on Add new customer button
+2019-12-12 16:06:00,399 - Nop Cucumber -INFO - filling customer details
+2019-12-12 16:06:31,735 - Nop Cucumber -INFO - clicking on save button
+2019-12-12 16:06:36,771 - Nop Cucumber -INFO - checking confirmation message

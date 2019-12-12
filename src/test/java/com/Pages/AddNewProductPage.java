@@ -33,12 +33,22 @@ public class AddNewProductPage
 	@FindBy(xpath="//button[@name='save']")
 	WebElement save_btn;
 	
-	public void clickonProductInfo()
+	public void clickonProductInfo() throws InterruptedException
 	{
-		productInfo_link.click();
+		if(productName_txt.isDisplayed())
+		{
+			this.setProductName();
+			System.out.println("product name txtbox is displyed ");
+	
+		}
+		else
+		{
+			System.out.println("product name txtbox is not displyed ");
+			productInfo_link.click();
+			this.setProductName();
+		}
 		
 	}
-	
 	
 	public void setProductName() throws InterruptedException
 	{

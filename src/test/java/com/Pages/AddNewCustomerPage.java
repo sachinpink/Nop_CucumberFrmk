@@ -1,5 +1,7 @@
 package com.Pages;
 
+import org.apache.commons.lang.RandomStringUtils;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -43,9 +45,18 @@ public class AddNewCustomerPage
 	@FindBy(xpath="//button[@name='save']")
 	WebElement save_btn;
 	
+	@FindBy(xpath="//div[@class='alert alert-success alert-dismissable']")
+	WebElement cust_added_msg;
+	
+	@FindBy(xpath="//span[@class='k-select']")
+	WebElement datePicker;
+	
 	public void setEmailId()
 	{
-		email_txt.sendKeys("sachin@gmail.com");
+		// here we generating random string apace.lang package 
+		
+		String random=RandomStringUtils.randomAlphanumeric(5);
+		email_txt.sendKeys(random+"@gmail.com");
 	}
 	public void setPasword()
 	{
@@ -72,6 +83,29 @@ public class AddNewCustomerPage
 		}
 		
 	}
+	
+	public void setDOB(String MonthYear, String day) throws InterruptedException
+	{
+		datePicker.click();
+		while(true)
+		{
+			String currentMMYYYY=driver.findElement(By.xpath("//div[@class='k-header']/a[2]")).getText();
+			
+			//System.out.println(currentMonth);
+			
+			if(currentMMYYYY.equals(MonthYear))
+			{
+				break;
+			}
+			else
+			{
+				Thread.sleep(2000);
+				driver.findElement(By.xpath("//div[@class='k-header']/a[1]")).click();
+			}
+		}
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//a[text()='"+day+"']")).click();
+	}
 	public void setCompanyName()
 	{
 		companyName_txt.sendKeys("info");
@@ -86,6 +120,10 @@ public class AddNewCustomerPage
 		save_btn.click();
 	}
 	
+	public boolean verifyCustAddStatus()
+	{
+		return cust_added_msg.isDisplayed();
+	}
 	
 	
 

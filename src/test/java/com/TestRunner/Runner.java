@@ -11,10 +11,10 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions
-( features=".//Features/Add new product.feature",
+( features={".//Features/Login app Adding and searching customer.feature",".//Features/Add new product.feature"},
  glue="com.StepDefinations",
  dryRun=false,
- //tags={"@LoginApp"},
+ tags={"@AddCustomer"},
  monochrome=true,
  plugin={"com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport.html"} //this is for generating extend report
 )
