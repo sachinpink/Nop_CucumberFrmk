@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions
-( features={".//Features/Login app Adding and searching customer.feature",".//Features/Add new product.feature"},
+( features={".//Features/Login app Adding and searching customer.feature"},
  glue="com.StepDefinations",
  dryRun=false,
  tags={"@AddCustomer"},
