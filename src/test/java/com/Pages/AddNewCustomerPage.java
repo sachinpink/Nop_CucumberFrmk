@@ -91,7 +91,7 @@ public class AddNewCustomerPage
 		{
 			String currentMMYYYY=driver.findElement(By.xpath("//div[@class='k-header']/a[2]")).getText();
 			
-			//System.out.println(currentMonth);
+			//System.out.println(currentMonth);//
 			
 			if(currentMMYYYY.equals(MonthYear))
 			{
